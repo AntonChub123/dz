@@ -1,0 +1,23 @@
+ol{
+    list-style-type: none;
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    color: springgreen;
+    counter-reset: number;
+}
+li{
+    margin-top: 5px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 10px;
+}
+span{
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+li::before{
+    margin-left: 10px;
+    content: counter(name);
+    counter-increment: number;
+    background-color: gray;
+}
