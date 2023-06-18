@@ -1,8 +1,26 @@
 ul{
-    background-color: rgb(207, 203, 203);
-    list-style-type: none
+    background-color: rgba(207, 203, 203, 0.553);
+    list-style-type: square;
+    padding:10px ;
+    margin:10px ;
 }
 #qwe{
     background-color: rgb(39, 233, 233);
+    margin: 10px;
+    padding: 10px;
     
+
+}
+#ewq{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+}
+#q{
+    background-color: rgb(167, 163, 163);
+    margin: 10px;
+    padding: 10px;
+}
+span{
+    color: brown;
 }
